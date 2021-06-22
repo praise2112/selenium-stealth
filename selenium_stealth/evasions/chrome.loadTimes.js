@@ -1,6 +1,6 @@
 // https://github.com/berstend/puppeteer-extra/blob/c44c8bb0224c6bba2554017bfb9d7a1d0119f92f/packages/puppeteer-extra-plugin-stealth/evasions/chrome.loadTimes/index.js
 
-() => {
+const chromeLoadTimes = () => {
   if (!window.chrome) {
     // Use the exact property descriptor found in headful Chrome
     // fetch it via `Object.getOwnPropertyDescriptor(window, 'chrome')`
@@ -125,3 +125,5 @@
   }
   utils.patchToString(window.chrome.loadTimes)
 }
+
+module.exports = chromeLoadTimes

@@ -1,6 +1,6 @@
 // https://github.com/berstend/puppeteer-extra/blob/c44c8bb0224c6bba2554017bfb9d7a1d0119f92f/packages/puppeteer-extra-plugin-stealth/evasions/webgl.vendor/index.js
 
-(vendor, renderer) => {
+const webglVendor = (vendor, renderer) => {
   const getParameterProxyHandler = {
     apply: function (target, ctx, args) {
       const param = (args || [])[0]
@@ -26,3 +26,5 @@
   addProxy(WebGLRenderingContext.prototype, 'getParameter')
   addProxy(WebGL2RenderingContext.prototype, 'getParameter')
 }
+
+module.exports = webglVendor

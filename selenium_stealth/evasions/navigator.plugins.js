@@ -1,6 +1,6 @@
 // https://github.com/berstend/puppeteer-extra/tree/c44c8bb0224c6bba2554017bfb9d7a1d0119f92f/packages/puppeteer-extra-plugin-stealth/evasions/navigator.plugins
 
-() => {
+const navigatorPlugins = () => {
   const fns = {};
   fns.generatePluginArray = (utils, fns) => pluginsData => {
     return fns.generateMagicArray(utils, fns)(
@@ -243,3 +243,5 @@
 
   // All done
 }
+
+module.exports = navigatorPlugins

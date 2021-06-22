@@ -1,4 +1,4 @@
-()=>{
+const hairlineFix = ()=>{
 	// store the existing descriptor
 	const elementDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, 'offsetHeight');
 
@@ -13,3 +13,5 @@
 		},
 	});
 }
+
+module.exports = hairlineFix

@@ -1,6 +1,6 @@
 // https://github.com/berstend/puppeteer-extra/blob/c44c8bb0224c6bba2554017bfb9d7a1d0119f92f/packages/puppeteer-extra-plugin-stealth/evasions/_utils/index.js
 
-() => {
+const _utils = () => {
   /**
    * A set of shared utility functions specifically for the purpose of modifying native browser APIs without leaving traces.
    *
@@ -455,3 +455,5 @@
 
   utils.preloadCache()
 }
+
+module.exports = _utils
