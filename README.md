@@ -5,7 +5,7 @@ A nodejs package **selenium-stealth** to prevent detection. This programme is tr
 As of now selenium-stealth
 - Only support Selenium Chrome/Chromium 
 - Only works with selenium 4
-- Only works on the first tab open by the browser
+- Only works on the first tab opened by the browser
 
 After using selenium-stealth you can prevent almost all selenium detections. 
 ***
