@@ -6,9 +6,11 @@ As of now selenium-stealth **only support Selenium Chrome/Chromium**.
 
 After using selenium-stealth you can prevent almost all selenium detections. 
 ***
-This a node version of selenium stealth forked from the [python version](https://github.com/diprajpatra/selenium-stealth). \
+This a nodeJs version of selenium stealth forked from the [python version](https://github.com/diprajpatra/selenium-stealth). \
 And the python version is a re-implementation of JavaScript [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth) developed by [@berstend](https://github.com/berstend>).
 ***
+**It Only works on the first tab open by the browser**
+
 Features that currently selenium-stealth can offer:
 
 - ✅️ **`selenium-stealth` with stealth passes all public bot tests.**

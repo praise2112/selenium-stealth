@@ -64,7 +64,7 @@ class SeleniumStealth {
      *  renderer: string=,
      *  fixHairline: boolean=,
      *  runOnInsecureOrigins: boolean=
-     *  }} options
+     *  }=} options
      * */
     async stealth(options){
         const _options = {...DEFAULT_OPTIONS, ...options}
