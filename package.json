@@ -1,6 +1,6 @@
 {
   "name": "selenium-stealth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evade selenium detection from websites",
   "main": "selenium_stealth/index.js",
   "repository": "https://github.com/diprajpatra/selenium-stealth.git",
